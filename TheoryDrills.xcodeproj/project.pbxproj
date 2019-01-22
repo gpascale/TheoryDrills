@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58465E4F21F6855C005AE478 /* TimedQuestioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58465E4E21F6855C005AE478 /* TimedQuestioner.swift */; };
+		58465E5121F6925C005AE478 /* PauseableTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58465E5021F6925B005AE478 /* PauseableTimer.swift */; };
+		58465E5321F6953E005AE478 /* PauseableTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58465E5221F6953E005AE478 /* PauseableTimerTests.swift */; };
 		58CA74B021EDB8920006DECF /* MTQ.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 58CA74AF21EDB8920006DECF /* MTQ.bundle.js */; };
 		58DE016E21E9B5C400D0AE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE016D21E9B5C400D0AE57 /* AppDelegate.swift */; };
 		58DE017021E9B5C400D0AE57 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE016F21E9B5C400D0AE57 /* QuizViewController.swift */; };
@@ -15,6 +18,7 @@
 		58DE017821E9B5C500D0AE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DE017621E9B5C500D0AE57 /* LaunchScreen.storyboard */; };
 		58DE018321E9B5C600D0AE57 /* TheoryDrillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE018221E9B5C600D0AE57 /* TheoryDrillsTests.swift */; };
 		58DE018E21E9B5C600D0AE57 /* TheoryDrillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE018D21E9B5C600D0AE57 /* TheoryDrillsUITests.swift */; };
+		58E8921221F75C9000F868B7 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8921121F75C9000F868B7 /* Speaker.swift */; };
 		58F2C63921EA967C008AEE1E /* JSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2C63821EA967C008AEE1E /* JSUtils.swift */; };
 		58F2C63E21EC5436008AEE1E /* Questioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2C63D21EC5436008AEE1E /* Questioner.swift */; };
 		58F2C64021EC5946008AEE1E /* SpeechUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2C63F21EC5946008AEE1E /* SpeechUtils.swift */; };
@@ -39,10 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58465E4E21F6855C005AE478 /* TimedQuestioner.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TimedQuestioner.swift; sourceTree = "<group>"; tabWidth = 2; };
+		58465E5021F6925B005AE478 /* PauseableTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseableTimer.swift; sourceTree = "<group>"; };
+		58465E5221F6953E005AE478 /* PauseableTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseableTimerTests.swift; sourceTree = "<group>"; };
 		58CA74AF21EDB8920006DECF /* MTQ.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = MTQ.bundle.js; path = "../../../music-theory-questions/lib/MTQ.bundle.js"; sourceTree = "<group>"; };
 		58DE016A21E9B5C400D0AE57 /* TheoryDrills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheoryDrills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DE016D21E9B5C400D0AE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58DE016F21E9B5C400D0AE57 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		58DE016F21E9B5C400D0AE57 /* QuizViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		58DE017221E9B5C400D0AE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58DE017421E9B5C500D0AE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DE017721E9B5C500D0AE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		58DE018921E9B5C600D0AE57 /* TheoryDrillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheoryDrillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DE018D21E9B5C600D0AE57 /* TheoryDrillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryDrillsUITests.swift; sourceTree = "<group>"; };
 		58DE018F21E9B5C600D0AE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E8921121F75C9000F868B7 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		58F2C63821EA967C008AEE1E /* JSUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSUtils.swift; sourceTree = "<group>"; };
 		58F2C63D21EC5436008AEE1E /* Questioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questioner.swift; sourceTree = "<group>"; };
 		58F2C63F21EC5946008AEE1E /* SpeechUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechUtils.swift; sourceTree = "<group>"; };
@@ -117,6 +125,9 @@
 				58F2C63821EA967C008AEE1E /* JSUtils.swift */,
 				58F2C63D21EC5436008AEE1E /* Questioner.swift */,
 				58F2C63F21EC5946008AEE1E /* SpeechUtils.swift */,
+				58465E4E21F6855C005AE478 /* TimedQuestioner.swift */,
+				58465E5021F6925B005AE478 /* PauseableTimer.swift */,
+				58E8921121F75C9000F868B7 /* Speaker.swift */,
 			);
 			path = TheoryDrills;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 			children = (
 				58DE018221E9B5C600D0AE57 /* TheoryDrillsTests.swift */,
 				58DE018421E9B5C600D0AE57 /* Info.plist */,
+				58465E5221F6953E005AE478 /* PauseableTimerTests.swift */,
 			);
 			path = TheoryDrillsTests;
 			sourceTree = "<group>";
@@ -289,8 +301,11 @@
 				58DE017021E9B5C400D0AE57 /* QuizViewController.swift in Sources */,
 				58F2C64021EC5946008AEE1E /* SpeechUtils.swift in Sources */,
 				58F2C63921EA967C008AEE1E /* JSUtils.swift in Sources */,
+				58E8921221F75C9000F868B7 /* Speaker.swift in Sources */,
 				58F2C63E21EC5436008AEE1E /* Questioner.swift in Sources */,
+				58465E4F21F6855C005AE478 /* TimedQuestioner.swift in Sources */,
 				58DE016E21E9B5C400D0AE57 /* AppDelegate.swift in Sources */,
+				58465E5121F6925C005AE478 /* PauseableTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58465E5321F6953E005AE478 /* PauseableTimerTests.swift in Sources */,
 				58DE018321E9B5C600D0AE57 /* TheoryDrillsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
